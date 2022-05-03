@@ -188,7 +188,7 @@ header .content-wrapper {
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   font-size: 1.125em;
@@ -202,6 +202,7 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
 }
 
 header nav ul li {
@@ -243,13 +244,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 15px;
 }
 
 footer .social-icons i {
-  font-size: 1.3125em;
-  
- 
-  
+  font-size: 1.2em;
 }
 
 footer .copyright {
@@ -286,12 +285,15 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-  
+  flex-flow: row wrap; 
+}
+
+aside div.content-wrapper {
+  margin-top: 5px;
 }
 
 aside .form {
-  margin-top: 30px;
+  margin-top: 20px;
 }
  
 input[type=text] {
@@ -361,6 +363,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews div.content-wrapper {
+  margin-top: 20px;
 }
 
 .reviews h2 {
@@ -687,6 +693,7 @@ footer h4 {
 footer p {
   line-height: 1.285;
 }
+
 
 footer .copyright {
   width: 100%;
