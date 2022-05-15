@@ -133,6 +133,10 @@ img {
   width: 100%;
 }
 
+img:hover {
+  transform: scale(1.2);
+}
+
 figure {
   margin: 0;
 }
@@ -235,6 +239,9 @@ footer .social-icons {
   align-items: center;
 }
 
+.icon:hover {
+  transform: scale(1.4);
+}
 
 footer .social-icons p {
   background-color: #527158;
@@ -318,7 +325,10 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-
+input[type=button]:hover {
+  transform: scale(1.3);
+  
+}
 
 /*** Features **/
 
@@ -354,6 +364,10 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+}
+
+.fontawesome-icon:hover {
+  transform: scale(1.3);
 }
 
 /*** Reviews ***/
